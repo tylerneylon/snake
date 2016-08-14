@@ -17,6 +17,7 @@
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <sys/time.h>
 #include <unistd.h>
 
@@ -72,6 +73,10 @@ void start() {
 }
 
 void done() {
+
+  // Ensure no pending output is emitted after we send out the cleanup strings
+  // via stty and tput below.
+  fflush(stdout);
 
   // Put the terminal back into a decent state.
   system("stty cooked");  // Undo earlier call to "stty raw".
@@ -168,7 +173,10 @@ int main(int argc, char **argv) {
     // Call game.loop(state).
     lua_getfield(L, -1, "loop");
     push_state_table(L, key, is_end_of_seq);
-    lua_call(L, 1, 0);
+    lua_call(L, 1, 1);
+    const char *game_state = lua_tostring(L, -1);
+    if (strcmp(game_state, "game over") == 0) done();
+    lua_pop(L, 1);
 
     sleephires(0.016);  // Sleep for 16ms.
   }

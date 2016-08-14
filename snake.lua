@@ -7,6 +7,7 @@ local snake = {}
 local grid                = nil       -- grid[x][y] = 'open', or falsy = a wall.
 local grid_w, grid_h      = nil, nil
 local player
+local game_state          = 'playing'  -- or 'game over'
 
 local bg_color            = 234
 local border_color        = 244
@@ -23,10 +24,13 @@ end
 -- Return can_move, new_pos.
 local function can_move_in_dir(character, dir)
   local p = character.head
-  local gx, gy = p[1] + dir[1], p[2] + dir[2]
+  local x, y = p[1] + dir[1], p[2] + dir[2]
+  if not is_in_bounds(x, y) or (grid[x] and grid[x][y]) then
+    return false
+  end
   --return (grid[gx] and grid[gx][gy]), {gx, gy}
   -- TEMP TODO
-  return true, {gx, gy}
+  return true, {x, y}
 end
 
 local move_delta     = 0.1  -- seconds
@@ -49,11 +53,16 @@ local function update(state)
 
   -- Move in direction player.dir if possible.
   local can_move, new_pos = can_move_in_dir(player, player.dir)
-  if can_move then
+  if not can_move then
+    game_state = 'game over'
+  else
     player.head = new_pos
     table.insert(player.body, new_pos)
+    grid[new_pos[1]][new_pos[2]] = true
     if player.num_drawn == player.len then
-      player.to_erase = table.remove(player.body, 1)
+      local old = table.remove(player.body, 1)
+      grid[old[1]][old[2]] = nil
+      player.to_erase = old
     else
       player.num_drawn = player.num_drawn + 1
     end
@@ -97,7 +106,7 @@ function snake.init()
   player = {head      =  {px, py},
             body      = {{px, py}},  -- Index 1 is the tail here.
             dir       = { 1,  0},
-            len       = 5,
+            len       = 4,
             num_drawn = 1}
 
   -- Draw the initial borders.
@@ -118,6 +127,7 @@ end
 function snake.loop(state)
   update(state)
   draw(state.clock)
+  return game_state
 end
 
 return snake
