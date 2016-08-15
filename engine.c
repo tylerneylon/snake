@@ -175,7 +175,7 @@ int main(int argc, char **argv) {
     push_state_table(L, key, is_end_of_seq);
     lua_call(L, 1, 1);
     const char *game_state = lua_tostring(L, -1);
-    if (strcmp(game_state, "game over") == 0) done();
+    if (game_state && strcmp(game_state, "game over") == 0) done();
     lua_pop(L, 1);
 
     sleephires(0.016);  // Sleep for 16ms.

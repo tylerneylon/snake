@@ -28,8 +28,6 @@ local function can_move_in_dir(character, dir)
   if not is_in_bounds(x, y) or (grid[x] and grid[x][y]) then
     return false
   end
-  --return (grid[gx] and grid[gx][gy]), {gx, gy}
-  -- TEMP TODO
   return true, {x, y}
 end
 
