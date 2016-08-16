@@ -8,10 +8,14 @@ local grid                = nil       -- grid[x][y] = 'open', or falsy = a wall.
 local grid_w, grid_h      = nil, nil
 local player
 local game_state          = 'playing'  -- or 'game over'
+local apples              = {}
+local new_apple           = nil
 
 local bg_color            = 234
 local border_color        = 244
 local player_color        =  33
+local apple_color         = 166
+
 
 -- Internal functions.
 
@@ -25,7 +29,7 @@ end
 local function can_move_in_dir(character, dir)
   local p = character.head
   local x, y = p[1] + dir[1], p[2] + dir[2]
-  if not is_in_bounds(x, y) or (grid[x] and grid[x][y]) then
+  if not is_in_bounds(x, y) or grid[x][y] == 'snake' then
     return false
   end
   return true, {x, y}
@@ -54,9 +58,12 @@ local function update(state)
   if not can_move then
     game_state = 'game over'
   else
+    if grid[new_pos[1]][new_pos[2]] == 'apple' then
+      player.len = player.len + 1
+    end
     player.head = new_pos
     table.insert(player.body, new_pos)
-    grid[new_pos[1]][new_pos[2]] = true
+    grid[new_pos[1]][new_pos[2]] = 'snake'
     if player.num_drawn == player.len then
       local old = table.remove(player.body, 1)
       grid[old[1]][old[2]] = nil
@@ -64,6 +71,17 @@ local function update(state)
     else
       player.num_drawn = player.num_drawn + 1
     end
+  end
+
+  -- Randomly add apples.
+  if math.random(100) <= 100 then
+    local a
+    repeat
+      a = {math.random(grid_w), math.random(grid_h)}
+    until not grid[a[1]][a[2]]
+    grid[a[1]][a[2]] = 'apple'
+    new_apple = a
+    table.insert(apples, new_apple)
   end
 end
 
@@ -84,6 +102,12 @@ local function draw(clock)
   if player.to_erase then
     draw_dot(player.to_erase, bg_color)
     player.to_erase = nil
+  end
+
+  -- Draw the new apple if there is one.
+  if new_apple then
+    draw_dot(new_apple, apple_color)
+    new_apple = nil
   end
 end
 
