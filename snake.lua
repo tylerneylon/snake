@@ -1,5 +1,15 @@
 -- snake.lua
 
+--[[
+
+TODO
+ * Write out the final level and score at the end of the game.
+ * Consider obstacles within levels.
+ * Consider differently-colored apples worth more.
+ * Regularize how frequently apples appear.
+
+--]]
+
 local snake = {}
 
 -- Globals.
@@ -10,13 +20,16 @@ local player
 local game_state          = 'playing'  -- or 'game over'
 local apples              = {}
 local new_apple           = nil
-local prob_new_apple      = 0.04  -- Max is 1.0.
+local prob_new_apple      = 0.03  -- Max is 1.0.
+local score               = 0
+local level               = 1
 
 -- Colors.
 local bg_color            = 234
 local border_color        = 244
 local player_color        =  33
 local apple_color         = 166
+local text_color          = 222
 
 -- Update parameters.
 local move_delta          = 0.10  -- seconds (0.1 default)
@@ -39,6 +52,15 @@ end
 
 
 -- Internal functions.
+
+local function write_score_and_level()
+  set_pos(0, grid_h + 2)
+  set_color('b', 0)
+  set_color('f', text_color)
+  io.write(('Score %5d'):format(score))
+  io.write('\r\n')
+  io.write(('Level %5d'):format(level))
+end
 
 local function is_in_bounds(x, y)
   return (1 <= x and x <= grid_w and
@@ -111,6 +133,12 @@ local function update(state)
   else
     if grid[new_pos[1]][new_pos[2]] == 'apple' then
       player.len = player.len + 1
+      score = score + 1
+      if score % 8 == 0 then
+        level = level + 1
+        move_delta = move_delta * 0.9
+      end
+      write_score_and_level()
     end
     player.head = new_pos
     table.insert(player.body, new_pos)
@@ -195,6 +223,9 @@ function snake.init()
     end
     io.write('\r\n')
   end
+
+  -- Draw the initial score and level.
+  write_score_and_level()
 end
 
 function snake.loop(state)
