@@ -10,6 +10,7 @@ local player
 local game_state          = 'playing'  -- or 'game over'
 local apples              = {}
 local new_apple           = nil
+local prob_new_apple      = 0.04  -- Max is 1.0.
 
 local bg_color            = 234
 local border_color        = 244
@@ -74,7 +75,7 @@ local function update(state)
   end
 
   -- Randomly add apples.
-  if math.random(100) <= 100 then
+  if math.random() < prob_new_apple then
     local a
     repeat
       a = {math.random(grid_w), math.random(grid_h)}
