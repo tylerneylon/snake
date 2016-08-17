@@ -12,10 +12,30 @@ local apples              = {}
 local new_apple           = nil
 local prob_new_apple      = 0.04  -- Max is 1.0.
 
+-- Colors.
 local bg_color            = 234
 local border_color        = 244
 local player_color        =  33
 local apple_color         = 166
+
+-- Update parameters.
+local move_delta          = 0.10  -- seconds (0.1 default)
+local next_move_time      = nil
+
+
+-- Debug globals and functions.
+
+local pr_line = nil
+
+local function pr(s)
+  if pr_line == nil then
+    pr_line = grid_h + 2
+  end
+  set_pos(0, pr_line)
+  set_color('b', 0)
+  io.write(s)
+  pr_line = pr_line + 1
+end
 
 
 -- Internal functions.
@@ -37,8 +57,14 @@ local function can_move_in_dir(character, dir)
   return true, {x, y}
 end
 
-local move_delta     = 0.1  -- seconds
-local next_move_time = nil
+local function has_cur_dir_taken_effect()
+  local n = player.body[#player.body - 1]  -- neck
+  if n == nil then return false end
+  -- Compare the current dir with the last move made.
+  local dir = player.dir
+  local last = {player.head[1] - n[1], player.head[2] - n[2]}
+  return dir[1] == last[1] and dir[2] == last[2]
+end
 
 local function update(state)
 
@@ -48,9 +74,14 @@ local function update(state)
   if dir_of_key[state.key] then
     local d = dir_of_key[state.key]          -- d = direction
     local n = player.body[#player.body - 1]  -- n = neck
+
     -- Ignore turns that would result in death by eating your own neck.
-    if not (player.head[1] + d[1] == n[1] and
-            player.head[2] + d[2] == n[2]) then
+    -- Also, if the current direction has not yet been used, then save
+    -- the new direction until after that point.
+    if (n == nil or
+        not (player.head[1] + d[1] == n[1] and
+             player.head[2] + d[2] == n[2])
+       ) and has_cur_dir_taken_effect() then
       player.dir = d
       player.next_dir = nil
     else
@@ -66,7 +97,9 @@ local function update(state)
   next_move_time = next_move_time + move_delta
 
   -- If there's a next_dir and we can turn in that dir, do so.
-  if player.next_dir and can_move_in_dir(player, player.next_dir) then
+  if player.next_dir and
+     has_cur_dir_taken_effect() and
+     can_move_in_dir(player, player.next_dir) then
     player.dir = player.next_dir
     player.next_dir = nil
   end
