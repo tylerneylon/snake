@@ -28,6 +28,7 @@ end
 -- Check if a character can move in a given direction.
 -- Return can_move, new_pos.
 local function can_move_in_dir(character, dir)
+  assert(type(dir) == 'table')
   local p = character.head
   local x, y = p[1] + dir[1], p[2] + dir[2]
   if not is_in_bounds(x, y) or grid[x][y] == 'snake' then
@@ -44,8 +45,18 @@ local function update(state)
   -- Update the direction if an arrow key was pressed.
   local dir_of_key = {left = {-1, 0}, right = {1, 0},
                       up   = {0, -1}, down  = {0, 1}}
-  local new_dir = dir_of_key[state.key]
-  if new_dir then player.dir = new_dir end
+  if dir_of_key[state.key] then
+    local d = dir_of_key[state.key]          -- d = direction
+    local n = player.body[#player.body - 1]  -- n = neck
+    -- Ignore turns that would result in death by eating your own neck.
+    if not (player.head[1] + d[1] == n[1] and
+            player.head[2] + d[2] == n[2]) then
+      player.dir = d
+      player.next_dir = nil
+    else
+      player.next_dir = d
+    end
+  end
 
   -- Only move every move_delta seconds.
   if next_move_time == nil then
@@ -53,6 +64,12 @@ local function update(state)
   end
   if state.clock < next_move_time then return end
   next_move_time = next_move_time + move_delta
+
+  -- If there's a next_dir and we can turn in that dir, do so.
+  if player.next_dir and can_move_in_dir(player, player.next_dir) then
+    player.dir = player.next_dir
+    player.next_dir = nil
+  end
 
   -- Move in direction player.dir if possible.
   local can_move, new_pos = can_move_in_dir(player, player.dir)
