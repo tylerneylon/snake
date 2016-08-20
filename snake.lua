@@ -4,10 +4,13 @@
 
 TODO
  [x] Write out the final level and score at the end of the game.
+ [x] Regularize how frequently apples appear.
  [ ] Consider obstacles within levels.
  [ ] Consider differently-colored apples worth more.
- [ ] Regularize how frequently apples appear.
  [ ] Investigate segfault.
+ [ ] Save high scores.
+ [ ] Add an interesting 'presents' animation.
+ [ ] Add a title screen.
 
 --]]
 
@@ -22,7 +25,8 @@ local game_state          = 'playing'  -- or 'game over'
 local bye_msg             = nil
 local apples              = {}
 local new_apple           = nil
-local prob_new_apple      = 0.03  -- Max is 1.0.
+local avg_ticks_per_apple = 60
+local next_apple_time     = nil
 local score               = 0
 local level               = 1
 
@@ -34,7 +38,7 @@ local apple_color         = 166
 local text_color          = 222
 
 -- Update parameters.
-local move_delta          = 0.10  -- seconds (0.1 default)
+local tick_delta          = 0.10  -- seconds (0.1 default)
 local next_move_time      = nil
 
 
@@ -113,12 +117,12 @@ local function update(state)
     end
   end
 
-  -- Only move every move_delta seconds.
+  -- Only move every tick_delta seconds.
   if next_move_time == nil then
-    next_move_time = state.clock + move_delta
+    next_move_time = state.clock + tick_delta
   end
   if state.clock < next_move_time then return end
-  next_move_time = next_move_time + move_delta
+  next_move_time = next_move_time + tick_delta
 
   -- If there's a next_dir and we can turn in that dir, do so.
   if player.next_dir and
@@ -135,11 +139,11 @@ local function update(state)
     bye_msg    = ('Final score: %4d\nFinal level: %4d'):format(score, level)
   else
     if grid[new_pos[1]][new_pos[2]] == 'apple' then
-      player.len = player.len + 1
+      player.len = player.len + 2
       score = score + 1
       if score % 8 == 0 then
         level = level + 1
-        move_delta = move_delta * 0.9
+        tick_delta = tick_delta * 0.9
       end
       write_score_and_level()
     end
@@ -156,7 +160,7 @@ local function update(state)
   end
 
   -- Randomly add apples.
-  if math.random() < prob_new_apple then
+  if next_apple_time == nil or state.clock > next_apple_time then
     local a
     repeat
       a = {math.random(grid_w), math.random(grid_h)}
@@ -164,6 +168,8 @@ local function update(state)
     grid[a[1]][a[2]] = 'apple'
     new_apple = a
     table.insert(apples, new_apple)
+    local wait_ticks = math.random(avg_ticks_per_apple)
+    next_apple_time = state.clock + wait_ticks * tick_delta
   end
 end
 

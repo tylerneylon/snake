@@ -64,7 +64,7 @@ void sleephires(double sec) {
 void start() {
 
   // Terminal setup.
-  system("tput clear");  // Clear the screen.
+  system("tput reset");  // Reset terminal colors and clear the screen.
   system("tput civis");  // Hide the cursor.
   system("stty raw");    // Improve access to keypresses from stdin.
 
