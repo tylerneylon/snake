@@ -72,7 +72,7 @@ void start() {
   fcntl(STDIN_FILENO, F_SETFL, fcntl(STDIN_FILENO, F_GETFL) | O_NONBLOCK);
 }
 
-void done() {
+void done(const char *msg) {
 
   // Ensure no pending output is emitted after we send out the cleanup strings
   // via stty and tput below.
@@ -81,6 +81,9 @@ void done() {
   // Put the terminal back into a decent state.
   system("stty cooked");  // Undo earlier call to "stty raw".
   system("tput reset");   // Reset terminal colors and clear the screen.
+
+  // Print out the ending message, if one was provided.
+  if (msg) printf("%s\n", msg);
 
   exit(0);
 }
@@ -168,15 +171,17 @@ int main(int argc, char **argv) {
   while (1) {
     int is_end_of_seq;
     int key = getkey(&is_end_of_seq);
-    if (key == 27 || key == 'q' || key == 'Q') done();
+    if (key == 27 || key == 'q' || key == 'Q') done(NULL);
 
     // Call game.loop(state).
     lua_getfield(L, -1, "loop");
     push_state_table(L, key, is_end_of_seq);
-    lua_call(L, 1, 1);
-    const char *game_state = lua_tostring(L, -1);
-    if (game_state && strcmp(game_state, "game over") == 0) done();
-    lua_pop(L, 1);
+    lua_call(L, 1, 2);
+    const char *game_state = lua_tostring(L, -2);
+    if (game_state && strcmp(game_state, "game over") == 0) {
+      done(lua_tostring(L, -1));
+    }
+    lua_pop(L, 2);
 
     sleephires(0.016);  // Sleep for 16ms.
   }

@@ -3,10 +3,11 @@
 --[[
 
 TODO
- * Write out the final level and score at the end of the game.
- * Consider obstacles within levels.
- * Consider differently-colored apples worth more.
- * Regularize how frequently apples appear.
+ [x] Write out the final level and score at the end of the game.
+ [ ] Consider obstacles within levels.
+ [ ] Consider differently-colored apples worth more.
+ [ ] Regularize how frequently apples appear.
+ [ ] Investigate segfault.
 
 --]]
 
@@ -18,6 +19,7 @@ local grid                = nil       -- grid[x][y] = 'open', or falsy = a wall.
 local grid_w, grid_h      = nil, nil
 local player
 local game_state          = 'playing'  -- or 'game over'
+local bye_msg             = nil
 local apples              = {}
 local new_apple           = nil
 local prob_new_apple      = 0.03  -- Max is 1.0.
@@ -130,6 +132,7 @@ local function update(state)
   local can_move, new_pos = can_move_in_dir(player, player.dir)
   if not can_move then
     game_state = 'game over'
+    bye_msg    = ('Final score: %4d\nFinal level: %4d'):format(score, level)
   else
     if grid[new_pos[1]][new_pos[2]] == 'apple' then
       player.len = player.len + 1
@@ -231,7 +234,7 @@ end
 function snake.loop(state)
   update(state)
   draw(state.clock)
-  return game_state
+  return game_state, bye_msg
 end
 
 return snake
