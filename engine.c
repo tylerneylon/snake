@@ -64,9 +64,9 @@ void sleephires(double sec) {
 void start() {
 
   // Terminal setup.
-  system("tput reset");  // Reset terminal colors and clear the screen.
-  system("tput civis");  // Hide the cursor.
-  system("stty raw");    // Improve access to keypresses from stdin.
+  system("tput reset");      // Reset terminal colors and clear the screen.
+  system("tput civis");      // Hide the cursor.
+  system("stty raw -echo");  // Improve access to keypresses from stdin.
 
   // Make reading from stdin non-blocking.
   fcntl(STDIN_FILENO, F_SETFL, fcntl(STDIN_FILENO, F_GETFL) | O_NONBLOCK);
@@ -79,8 +79,8 @@ void done(const char *msg) {
   fflush(stdout);
 
   // Put the terminal back into a decent state.
-  system("stty cooked");  // Undo earlier call to "stty raw".
-  system("tput reset");   // Reset terminal colors and clear the screen.
+  system("stty cooked echo");  // Undo earlier call to "stty raw".
+  system("tput reset");        // Reset terminal colors and clear the screen.
 
   // Print out the ending message, if one was provided.
   if (msg) printf("%s\n", msg);
@@ -139,6 +139,15 @@ int timestamp(lua_State *L) {
   return 1;
 }
 
+// Lua: sleep(x).
+// Sleep for x seconds, which need not be an integer.
+int luasleep(lua_State *L) {
+  double x = lua_tonumber(L, 1);
+  sleephires(x);
+  return 0;
+}
+
+
 
 // Main.
 
@@ -154,6 +163,7 @@ int main(int argc, char **argv) {
 
   // Set up API functions written in C.
   lua_register(L, "timestamp", timestamp);
+  lua_register(L, "sleep",     luasleep);
 
   // Set up API functions written in Lua.
   luaL_dofile(L, "engine_util.lua");

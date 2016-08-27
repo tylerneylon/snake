@@ -16,6 +16,12 @@ TODO
 
 local snake = {}
 
+
+-- Requires.
+
+local intro = require 'intro'
+
+
 -- Globals.
 
 local grid                = nil       -- grid[x][y] = 'open', or falsy = a wall.
@@ -205,6 +211,8 @@ function snake.init()
 
   -- Set up random number generation.
   math.randomseed(os.time())
+
+  intro.go()
 
   -- Set up the grid.
   grid_w, grid_h = 39, 23

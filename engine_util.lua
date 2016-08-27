@@ -10,7 +10,7 @@ local cached_strs = {}  -- Maps cmd -> str.
 
 local function cached_cmd(cmd)
   if not cached_strs[cmd] then
-    p = io.popen(cmd)
+    local p = io.popen(cmd)
     cached_strs[cmd] = p:read()
     p:close()
   end
@@ -27,4 +27,21 @@ end
 
 function set_pos(x, y)
   cached_cmd('tput cup ' .. y .. ' ' .. x)
+end
+
+function clr()
+  cached_cmd('tput clear')
+end
+
+function scrsize()
+  local p
+  p = io.popen('tput cols')
+  local w = tonumber(p:read())
+  p:close()
+
+  p = io.popen('tput lines')
+  local h = tonumber(p:read())
+  p:close()
+
+  return w, h
 end
