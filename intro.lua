@@ -34,14 +34,30 @@ local function pr_center(s, y_offset)
   io.write(s)
 end
 
+local function pr_text()
+  pr_center(spaceout('gaarlicbread'), -1)
+  pr_center(spaceout('presents'), 1)
+end
+
 
 -- Public functions.
 
 function intro.go()
-  pr_center(spaceout('gaarlicbread'), -1)
-  pr_center(spaceout('presents'), 1)
-  io.flush()
-  sleep(1)
+
+  local timestep = 0.05
+
+  for color = 232, 255 do
+    set_color('f', color)
+    pr_text()
+    io.flush()
+    sleep(timestep)
+  end
+  for color = 254, 232, -1 do
+    set_color('f', color)
+    pr_text()
+    io.flush()
+    sleep(timestep)
+  end
   clr()
 end
 
