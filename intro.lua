@@ -10,6 +10,7 @@ local intro = {}
 -- Internal globals.
 
 local w, h
+local s = '-------------------=======#'
 
 
 -- Internal functions.
@@ -39,10 +40,50 @@ local function pr_text()
   pr_center(spaceout('presents'), 1)
 end
 
+local function draw_streak(opts)
+
+  if w == nil then
+    w, h = scrsize()
+  end
+
+  local x_right    = opts.x_right
+  local y_offset   = opts.y_offset
+  local is_pos_set = false
+
+  -- We'll draw a string with a certain grayscale curve.
+  -- The grayscale colors have codes 232-255; that's 24 values.
+  -- We'll let the value 25 indicate full white, which is 231.
+  set_color('b', 0)
+  for i = 1, #s do
+    local x = x_right - #s + i
+    if x > 0 and x < w then
+      if not is_pos_set then
+        local y_mid = math.floor(h / 2)
+        set_pos(x - 1, y_mid + y_offset)
+        is_pos_set = true
+        set_color('b', 0)
+        io.write(' ')
+      end
+      local perc  = i / #s
+      local color = math.floor(24 * perc)  -- Values [0, 24].
+      if color == 24 then
+        --set_color('b', 231)  -- Full white background (for the space).
+        set_color('f', 231)  -- Full white.
+      else
+        set_color('f', 232 + color)
+      end
+      io.write(s:sub(i, i))
+    end
+  end
+  io.flush()
+end
+
 
 -- Public functions.
 
 function intro.go()
+
+  local w, h = scrsize()
 
   local timestep = 0.05
 
@@ -58,6 +99,17 @@ function intro.go()
     io.flush()
     sleep(timestep)
   end
+
+  -- This is temporary work on a new introduction animation.
+  clr()
+  for x_right = 0, w + #s + 20 + 2 do  -- + 2 to make sure it goes fully past.
+    draw_streak{x_right = x_right,      y_offset = -1}
+    draw_streak{x_right = x_right - 20, y_offset =  1}
+    sleep(0.001)
+  end
+  sleep(1)
+
+  set_color('b', 0)
   clr()
 end
 
