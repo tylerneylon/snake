@@ -1,0 +1,650 @@
+man(40698,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40699,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+man(40753,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40753.10ae70000.man.CmJSMI.index
+man(40753,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+man(40753,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40755,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40755.102f90000.sh.SQUXVc.index
+sh(40755,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40755,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40757,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40755.102f90000.sh.SQUXVc.index
+sh(40760,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40755.102f90000.sh.SQUXVc.index
+sh(40756,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40755.102f90000.sh.SQUXVc.index
+sh(40755,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40755.102f90000.sh.SQUXVc.index
+man(40753,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40753.10ae70000.man.CmJSMI.index
+man(40877,0x7fff7de2c300) malloc: protecting edges
+man(40877,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40877.10a965000.man.AJvGar.index
+man(40877,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+man(40877,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40879,0x7fff7de2c300) malloc: protecting edges
+sh(40879,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40879.1029d7000.sh.HQ4FuH.index
+sh(40879,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40879,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40881,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40879.1029d7000.sh.HQ4FuH.index
+sh(40884,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40879.1029d7000.sh.HQ4FuH.index
+sh(40880,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40879.1029d7000.sh.HQ4FuH.index
+sh(40879,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40879.1029d7000.sh.HQ4FuH.index
+man(40877,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40877.10a965000.man.AJvGar.index
+engine(40907,0x7fff7de2c300) malloc: protecting edges
+engine(40907,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40907.10ab07000.engine.Lb00K7.index
+engine(40907,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+engine(40907,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+sh(40908,0x7fff7de2c300) malloc: protecting edges
+sh(40908,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40908.10a975000.sh.BulYC4.index
+sh(40908,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40908,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40908,0x7fff7de2c300) malloc: protecting edges
+tput(40908,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40908.107f2d000.tput.OWxKc9.index
+tput(40908,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40908,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40908,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40908.10a975000.sh.BulYC4.index
+tput(40908,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40908.107f2d000.tput.OWxKc9.index
+sh(40910,0x7fff7de2c300) malloc: protecting edges
+sh(40910,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40910.1065e6000.sh.Wt1Ert.index
+sh(40910,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40910,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40910,0x7fff7de2c300) malloc: protecting edges
+tput(40910,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40910.1041e1000.tput.qDLF07.index
+tput(40910,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40910,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40910,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40910.1065e6000.sh.Wt1Ert.index
+tput(40910,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40910.1041e1000.tput.qDLF07.index
+sh(40911,0x7fff7de2c300) malloc: protecting edges
+sh(40911,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40911.10f37d000.sh.O0l2Zs.index
+sh(40911,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40911,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+stty(40911,0x7fff7de2c300) malloc: protecting edges
+stty(40911,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40911.10e64a000.stty.dL97R9.index
+stty(40911,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+stty(40911,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+stty(40911,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40911.10f37d000.sh.O0l2Zs.index
+stty(40911,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40911.10e64a000.stty.dL97R9.index
+sh(40912,0x7fff7de2c300) malloc: protecting edges
+sh(40912,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40912.107643000.sh.BZixzt.index
+sh(40912,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40912,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40912,0x7fff7de2c300) malloc: protecting edges
+tput(40912,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40912.100c23000.tput.BRyuIx.index
+tput(40912,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40912,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40912,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40912.107643000.sh.BZixzt.index
+tput(40912,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40912.100c23000.tput.BRyuIx.index
+sh(40914,0x7fff7de2c300) malloc: protecting edges
+sh(40914,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40914.100bec000.sh.E1iB2e.index
+sh(40914,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40914,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40914,0x7fff7de2c300) malloc: protecting edges
+tput(40914,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40914.1046b9000.tput.wJVS6C.index
+tput(40914,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40914,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40914,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40914.100bec000.sh.E1iB2e.index
+tput(40914,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40914.1046b9000.tput.wJVS6C.index
+sh(40915,0x7fff7de2c300) malloc: protecting edges
+sh(40915,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40915.10acb2000.sh.4dpvBC.index
+sh(40915,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40915,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40915,0x7fff7de2c300) malloc: protecting edges
+tput(40915,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40915.105a67000.tput.ZJTkZg.index
+tput(40915,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40915,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40915,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40915.10acb2000.sh.4dpvBC.index
+tput(40915,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40915.105a67000.tput.ZJTkZg.index
+sh(40917,0x7fff7de2c300) malloc: protecting edges
+sh(40917,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40917.104166000.sh.tuWFNu.index
+sh(40917,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40917,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40917,0x7fff7de2c300) malloc: protecting edges
+tput(40917,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40917.1077ea000.tput.D0ghzY.index
+tput(40917,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40917,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40917,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40917.104166000.sh.tuWFNu.index
+tput(40917,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40917.1077ea000.tput.D0ghzY.index
+sh(40919,0x7fff7de2c300) malloc: protecting edges
+sh(40919,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40919.109e77000.sh.o7B4b0.index
+sh(40919,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40919,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40919,0x7fff7de2c300) malloc: protecting edges
+tput(40919,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40919.10ffb0000.tput.um9WzU.index
+tput(40919,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40919,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40919,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40919.109e77000.sh.o7B4b0.index
+tput(40919,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40919.10ffb0000.tput.um9WzU.index
+sh(40920,0x7fff7de2c300) malloc: protecting edges
+sh(40920,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40920.1016de000.sh.bxfq8v.index
+sh(40920,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40920,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40920,0x7fff7de2c300) malloc: protecting edges
+tput(40920,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40920.10bc30000.tput.JmqZgn.index
+tput(40920,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40920,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40920,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40920.1016de000.sh.bxfq8v.index
+tput(40920,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40920.10bc30000.tput.JmqZgn.index
+sh(40922,0x7fff7de2c300) malloc: protecting edges
+sh(40922,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40922.101e62000.sh.wZrihi.index
+sh(40922,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40922,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40922,0x7fff7de2c300) malloc: protecting edges
+tput(40922,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40922.10fa27000.tput.pgxVZu.index
+tput(40922,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40922,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40922,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40922.101e62000.sh.wZrihi.index
+tput(40922,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40922.10fa27000.tput.pgxVZu.index
+sh(40923,0x7fff7de2c300) malloc: protecting edges
+sh(40923,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40923.10fa9f000.sh.smpVHO.index
+sh(40923,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40923,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40923,0x7fff7de2c300) malloc: protecting edges
+tput(40923,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40923.107399000.tput.BF8xoe.index
+tput(40923,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40923,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40923,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40923.10fa9f000.sh.smpVHO.index
+tput(40923,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40923.107399000.tput.BF8xoe.index
+sh(40924,0x7fff7de2c300) malloc: protecting edges
+sh(40924,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40924.10243c000.sh.KLbQE8.index
+sh(40924,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40924,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40924,0x7fff7de2c300) malloc: protecting edges
+tput(40924,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40924.10b94a000.tput.dfvLE8.index
+tput(40924,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40924,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40924,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40924.10243c000.sh.KLbQE8.index
+tput(40924,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40924.10b94a000.tput.dfvLE8.index
+sh(40933,0x7fff7de2c300) malloc: protecting edges
+sh(40933,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40933.107f92000.sh.OfG4Yd.index
+sh(40933,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40933,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40933,0x7fff7de2c300) malloc: protecting edges
+tput(40933,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40933.10bdfb000.tput.olXUcD.index
+tput(40933,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40933,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40933,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40933.107f92000.sh.OfG4Yd.index
+tput(40933,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40933.10bdfb000.tput.olXUcD.index
+sh(40946,0x7fff7de2c300) malloc: protecting edges
+sh(40946,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40946.1060e5000.sh.iP8Mxi.index
+sh(40946,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40946,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40946,0x7fff7de2c300) malloc: protecting edges
+tput(40946,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40946.103b3e000.tput.gEd9Jc.index
+tput(40946,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40946,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40946,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40946.1060e5000.sh.iP8Mxi.index
+tput(40946,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40946.103b3e000.tput.gEd9Jc.index
+sh(40947,0x7fff7de2c300) malloc: protecting edges
+sh(40947,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40947.106815000.sh.kT2rel.index
+sh(40947,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40947,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40947,0x7fff7de2c300) malloc: protecting edges
+tput(40947,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40947.10770d000.tput.pyewmh.index
+tput(40947,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40947,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40947,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40947.106815000.sh.kT2rel.index
+tput(40947,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40947.10770d000.tput.pyewmh.index
+sh(40954,0x7fff7de2c300) malloc: protecting edges
+sh(40954,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40954.10701e000.sh.r7i83K.index
+sh(40954,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40954,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40954,0x7fff7de2c300) malloc: protecting edges
+tput(40954,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40954.108a61000.tput.PKcx8B.index
+tput(40954,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40954,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40954,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40954.10701e000.sh.r7i83K.index
+tput(40954,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40954.108a61000.tput.PKcx8B.index
+sh(40960,0x7fff7de2c300) malloc: protecting edges
+sh(40960,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40960.109d67000.sh.H9x4wE.index
+sh(40960,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40960,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40960,0x7fff7de2c300) malloc: protecting edges
+tput(40960,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40960.10ecad000.tput.Y7sy4q.index
+tput(40960,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40960,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40960,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40960.109d67000.sh.H9x4wE.index
+tput(40960,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40960.10ecad000.tput.Y7sy4q.index
+sh(40962,0x7fff7de2c300) malloc: protecting edges
+sh(40962,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40962.10887e000.sh.cEhpCh.index
+sh(40962,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40962,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40962,0x7fff7de2c300) malloc: protecting edges
+tput(40962,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40962.10f663000.tput.YMnofZ.index
+tput(40962,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40962,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40962,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40962.10887e000.sh.cEhpCh.index
+tput(40962,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40962.10f663000.tput.YMnofZ.index
+sh(40968,0x7fff7de2c300) malloc: protecting edges
+sh(40968,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40968.108985000.sh.MjhvPb.index
+sh(40968,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40968,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40968,0x7fff7de2c300) malloc: protecting edges
+tput(40968,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40968.104c47000.tput.srvbGT.index
+tput(40968,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40968,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40968,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40968.108985000.sh.MjhvPb.index
+tput(40968,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40968.104c47000.tput.srvbGT.index
+sh(40969,0x7fff7de2c300) malloc: protecting edges
+sh(40969,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40969.10b803000.sh.P7uB4g.index
+sh(40969,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40969,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40969,0x7fff7de2c300) malloc: protecting edges
+tput(40969,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40969.108948000.tput.3vxkbn.index
+tput(40969,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40969,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40969,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40969.10b803000.sh.P7uB4g.index
+tput(40969,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40969.108948000.tput.3vxkbn.index
+sh(40975,0x7fff7de2c300) malloc: protecting edges
+sh(40975,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40975.106bce000.sh.WSh0p1.index
+sh(40975,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40975,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40975,0x7fff7de2c300) malloc: protecting edges
+tput(40975,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40975.10ac5c000.tput.6J87Uq.index
+tput(40975,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40975,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40975,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40975.106bce000.sh.WSh0p1.index
+tput(40975,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40975.10ac5c000.tput.6J87Uq.index
+sh(40981,0x7fff7de2c300) malloc: protecting edges
+sh(40981,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40981.10cba4000.sh.b7TPfK.index
+sh(40981,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40981,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40981,0x7fff7de2c300) malloc: protecting edges
+tput(40981,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40981.107c57000.tput.5G5e9H.index
+tput(40981,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40981,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40981,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40981.10cba4000.sh.b7TPfK.index
+tput(40981,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40981.107c57000.tput.5G5e9H.index
+sh(40982,0x7fff7de2c300) malloc: protecting edges
+sh(40982,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40982.10bc81000.sh.bFZyFr.index
+sh(40982,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40982,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40982,0x7fff7de2c300) malloc: protecting edges
+tput(40982,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40982.10bc18000.tput.En00Ze.index
+tput(40982,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40982,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40982,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40982.10bc81000.sh.bFZyFr.index
+tput(40982,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40982.10bc18000.tput.En00Ze.index
+sh(40987,0x7fff7de2c300) malloc: protecting edges
+sh(40987,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40987.10809d000.sh.vIWAVr.index
+sh(40987,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40987,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40987,0x7fff7de2c300) malloc: protecting edges
+tput(40987,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40987.1046b3000.tput.i160xo.index
+tput(40987,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40987,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40987,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40987.10809d000.sh.vIWAVr.index
+tput(40987,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40987.1046b3000.tput.i160xo.index
+sh(40988,0x7fff7de2c300) malloc: protecting edges
+sh(40988,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40988.104cd0000.sh.107CI7.index
+sh(40988,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40988,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40988,0x7fff7de2c300) malloc: protecting edges
+tput(40988,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40988.10f967000.tput.KqzSWd.index
+tput(40988,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40988,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40988,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40988.104cd0000.sh.107CI7.index
+tput(40988,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40988.10f967000.tput.KqzSWd.index
+sh(40995,0x7fff7de2c300) malloc: protecting edges
+sh(40995,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40995.1029b8000.sh.qfdvM2.index
+sh(40995,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40995,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40995,0x7fff7de2c300) malloc: protecting edges
+tput(40995,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40995.10b166000.tput.wddWki.index
+tput(40995,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40995,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40995,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40995.1029b8000.sh.qfdvM2.index
+tput(40995,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40995.10b166000.tput.wddWki.index
+sh(40999,0x7fff7de2c300) malloc: protecting edges
+sh(40999,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40999.103a81000.sh.avTcV4.index
+sh(40999,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(40999,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40999,0x7fff7de2c300) malloc: protecting edges
+tput(40999,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.40999.10deb8000.tput.Z1ngWq.index
+tput(40999,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(40999,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(40999,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40999.103a81000.sh.avTcV4.index
+tput(40999,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.40999.10deb8000.tput.Z1ngWq.index
+sh(41000,0x7fff7de2c300) malloc: protecting edges
+sh(41000,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41000.10690a000.sh.r8orYA.index
+sh(41000,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41000,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41000,0x7fff7de2c300) malloc: protecting edges
+tput(41000,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41000.10e8ca000.tput.CxsN6B.index
+tput(41000,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41000,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41000,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41000.10690a000.sh.r8orYA.index
+tput(41000,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41000.10e8ca000.tput.CxsN6B.index
+sh(41006,0x7fff7de2c300) malloc: protecting edges
+sh(41006,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41006.10d950000.sh.ZEtlE3.index
+sh(41006,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41006,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41006,0x7fff7de2c300) malloc: protecting edges
+tput(41006,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41006.10170c000.tput.x334Lp.index
+tput(41006,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41006,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41006,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41006.10d950000.sh.ZEtlE3.index
+tput(41006,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41006.10170c000.tput.x334Lp.index
+sh(41011,0x7fff7de2c300) malloc: protecting edges
+sh(41011,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41011.10990c000.sh.v9xXtm.index
+sh(41011,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41011,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41011,0x7fff7de2c300) malloc: protecting edges
+tput(41011,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41011.10cfbb000.tput.90aG1J.index
+tput(41011,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41011,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41011,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41011.10990c000.sh.v9xXtm.index
+tput(41011,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41011.10cfbb000.tput.90aG1J.index
+sh(41012,0x7fff7de2c300) malloc: protecting edges
+sh(41012,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41012.109e8f000.sh.BFW9r1.index
+sh(41012,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41012,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41012,0x7fff7de2c300) malloc: protecting edges
+tput(41012,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41012.102eb0000.tput.HGibQn.index
+tput(41012,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41012,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41012,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41012.109e8f000.sh.BFW9r1.index
+tput(41012,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41012.102eb0000.tput.HGibQn.index
+sh(41017,0x7fff7de2c300) malloc: protecting edges
+sh(41017,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41017.101acc000.sh.qteiia.index
+sh(41017,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41017,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41017,0x7fff7de2c300) malloc: protecting edges
+tput(41017,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41017.108371000.tput.QBBmcV.index
+tput(41017,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41017,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41017,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41017.101acc000.sh.qteiia.index
+tput(41017,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41017.108371000.tput.QBBmcV.index
+sh(41018,0x7fff7de2c300) malloc: protecting edges
+sh(41018,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41018.10a3af000.sh.JlJfxD.index
+sh(41018,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41018,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41018,0x7fff7de2c300) malloc: protecting edges
+tput(41018,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41018.10d29f000.tput.xVauoO.index
+tput(41018,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41018,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41018,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41018.10a3af000.sh.JlJfxD.index
+tput(41018,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41018.10d29f000.tput.xVauoO.index
+sh(41023,0x7fff7de2c300) malloc: protecting edges
+sh(41023,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41023.10ddd4000.sh.L3lRzX.index
+sh(41023,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41023,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41023,0x7fff7de2c300) malloc: protecting edges
+tput(41023,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41023.104bdc000.tput.0Tis1B.index
+tput(41023,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41023,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41023,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41023.10ddd4000.sh.L3lRzX.index
+tput(41023,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41023.104bdc000.tput.0Tis1B.index
+sh(41026,0x7fff7de2c300) malloc: protecting edges
+sh(41026,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41026.10fb77000.sh.bR3Gcn.index
+sh(41026,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41026,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41026,0x7fff7de2c300) malloc: protecting edges
+tput(41026,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41026.1045b3000.tput.fVpp16.index
+tput(41026,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41026,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41026,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41026.10fb77000.sh.bR3Gcn.index
+tput(41026,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41026.1045b3000.tput.fVpp16.index
+sh(41029,0x7fff7de2c300) malloc: protecting edges
+sh(41029,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41029.101bd4000.sh.dV9Qxc.index
+sh(41029,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41029,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41029,0x7fff7de2c300) malloc: protecting edges
+tput(41029,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41029.105f57000.tput.bFvwIp.index
+tput(41029,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41029,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41029,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41029.101bd4000.sh.dV9Qxc.index
+tput(41029,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41029.105f57000.tput.bFvwIp.index
+sh(41032,0x7fff7de2c300) malloc: protecting edges
+sh(41032,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41032.10e5a4000.sh.oLqMYr.index
+sh(41032,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41032,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41032,0x7fff7de2c300) malloc: protecting edges
+tput(41032,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41032.10bf58000.tput.izp5sz.index
+tput(41032,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41032,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41032,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41032.10e5a4000.sh.oLqMYr.index
+tput(41032,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41032.10bf58000.tput.izp5sz.index
+sh(41035,0x7fff7de2c300) malloc: protecting edges
+sh(41035,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41035.10f890000.sh.AmKPfZ.index
+sh(41035,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41035,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41035,0x7fff7de2c300) malloc: protecting edges
+tput(41035,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41035.1001b3000.tput.Z8fKV6.index
+tput(41035,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41035,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41035,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41035.10f890000.sh.AmKPfZ.index
+tput(41035,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41035.1001b3000.tput.Z8fKV6.index
+sh(41038,0x7fff7de2c300) malloc: protecting edges
+sh(41038,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41038.102e75000.sh.phack2.index
+sh(41038,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41038,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41038,0x7fff7de2c300) malloc: protecting edges
+tput(41038,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41038.104709000.tput.Y06N4S.index
+tput(41038,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41038,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41038,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41038.102e75000.sh.phack2.index
+tput(41038,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41038.104709000.tput.Y06N4S.index
+sh(41041,0x7fff7de2c300) malloc: protecting edges
+sh(41041,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41041.1083e5000.sh.KLVT4D.index
+sh(41041,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41041,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41041,0x7fff7de2c300) malloc: protecting edges
+tput(41041,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41041.1073ee000.tput.zT1m0A.index
+tput(41041,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41041,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41041,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41041.1083e5000.sh.KLVT4D.index
+tput(41041,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41041.1073ee000.tput.zT1m0A.index
+sh(41045,0x7fff7de2c300) malloc: protecting edges
+sh(41045,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41045.10c57c000.sh.PjGl1V.index
+sh(41045,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41045,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41045,0x7fff7de2c300) malloc: protecting edges
+tput(41045,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41045.10f20f000.tput.nbGI9h.index
+tput(41045,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41045,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41045,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41045.10c57c000.sh.PjGl1V.index
+tput(41045,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41045.10f20f000.tput.nbGI9h.index
+sh(41048,0x7fff7de2c300) malloc: protecting edges
+sh(41048,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41048.10aca0000.sh.7on65a.index
+sh(41048,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41048,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41048,0x7fff7de2c300) malloc: protecting edges
+tput(41048,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41048.1036c0000.tput.7Jl9Qp.index
+tput(41048,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41048,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41048,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41048.10aca0000.sh.7on65a.index
+tput(41048,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41048.1036c0000.tput.7Jl9Qp.index
+sh(41051,0x7fff7de2c300) malloc: protecting edges
+sh(41051,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41051.10112e000.sh.MIjS7U.index
+sh(41051,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41051,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41051,0x7fff7de2c300) malloc: protecting edges
+tput(41051,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41051.1060de000.tput.uSSlZp.index
+tput(41051,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41051,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41051,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41051.10112e000.sh.MIjS7U.index
+tput(41051,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41051.1060de000.tput.uSSlZp.index
+sh(41054,0x7fff7de2c300) malloc: protecting edges
+sh(41054,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41054.10e89a000.sh.tWbfgE.index
+sh(41054,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41054,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41054,0x7fff7de2c300) malloc: protecting edges
+tput(41054,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41054.1079ed000.tput.uVOhFz.index
+tput(41054,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41054,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41054,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41054.10e89a000.sh.tWbfgE.index
+tput(41054,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41054.1079ed000.tput.uVOhFz.index
+sh(41057,0x7fff7de2c300) malloc: protecting edges
+sh(41057,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41057.10b857000.sh.3VUhEI.index
+sh(41057,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41057,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41057,0x7fff7de2c300) malloc: protecting edges
+tput(41057,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41057.103b18000.tput.ZlOjde.index
+tput(41057,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41057,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41057,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41057.10b857000.sh.3VUhEI.index
+tput(41057,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41057.103b18000.tput.ZlOjde.index
+sh(41062,0x7fff7de2c300) malloc: protecting edges
+sh(41062,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41062.10fe23000.sh.QR1Gv0.index
+sh(41062,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41062,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41062,0x7fff7de2c300) malloc: protecting edges
+tput(41062,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41062.105c08000.tput.8HGRl2.index
+tput(41062,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41062,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41062,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41062.10fe23000.sh.QR1Gv0.index
+tput(41062,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41062.105c08000.tput.8HGRl2.index
+sh(41065,0x7fff7de2c300) malloc: protecting edges
+sh(41065,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41065.1025a5000.sh.mwtkC0.index
+sh(41065,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41065,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41065,0x7fff7de2c300) malloc: protecting edges
+tput(41065,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41065.10ba64000.tput.GWIj2Q.index
+tput(41065,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41065,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41065,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41065.1025a5000.sh.mwtkC0.index
+tput(41065,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41065.10ba64000.tput.GWIj2Q.index
+sh(41068,0x7fff7de2c300) malloc: protecting edges
+sh(41068,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41068.100d92000.sh.iVkfhV.index
+sh(41068,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41068,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41068,0x7fff7de2c300) malloc: protecting edges
+tput(41068,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41068.10eabf000.tput.olxhEx.index
+tput(41068,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41068,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41068,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41068.100d92000.sh.iVkfhV.index
+tput(41068,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41068.10eabf000.tput.olxhEx.index
+sh(41071,0x7fff7de2c300) malloc: protecting edges
+sh(41071,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41071.104e6f000.sh.pURxRq.index
+sh(41071,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41071,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41071,0x7fff7de2c300) malloc: protecting edges
+tput(41071,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41071.10f765000.tput.pYmTbx.index
+tput(41071,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41071,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41071,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41071.104e6f000.sh.pURxRq.index
+tput(41071,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41071.10f765000.tput.pYmTbx.index
+sh(41074,0x7fff7de2c300) malloc: protecting edges
+sh(41074,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41074.10af5c000.sh.t6hB1t.index
+sh(41074,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41074,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41074,0x7fff7de2c300) malloc: protecting edges
+tput(41074,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41074.1062f8000.tput.FGKWes.index
+tput(41074,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41074,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41074,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41074.10af5c000.sh.t6hB1t.index
+tput(41074,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41074.1062f8000.tput.FGKWes.index
+sh(41077,0x7fff7de2c300) malloc: protecting edges
+sh(41077,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41077.10b087000.sh.w2YTJ7.index
+sh(41077,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41077,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41077,0x7fff7de2c300) malloc: protecting edges
+tput(41077,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41077.10228f000.tput.5W2uGO.index
+tput(41077,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41077,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41077,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41077.10b087000.sh.w2YTJ7.index
+tput(41077,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41077.10228f000.tput.5W2uGO.index
+sh(41080,0x7fff7de2c300) malloc: protecting edges
+sh(41080,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41080.105f19000.sh.ZuK09Q.index
+sh(41080,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41080,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41080,0x7fff7de2c300) malloc: protecting edges
+tput(41080,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41080.105b1d000.tput.klfzoS.index
+tput(41080,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41080,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41080,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41080.105f19000.sh.ZuK09Q.index
+tput(41080,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41080.105b1d000.tput.klfzoS.index
+sh(41083,0x7fff7de2c300) malloc: protecting edges
+sh(41083,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41083.10e066000.sh.0WwBKa.index
+sh(41083,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41083,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41083,0x7fff7de2c300) malloc: protecting edges
+tput(41083,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41083.10478d000.tput.t4NGct.index
+tput(41083,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41083,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41083,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41083.10e066000.sh.0WwBKa.index
+tput(41083,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41083.10478d000.tput.t4NGct.index
+sh(41088,0x7fff7de2c300) malloc: protecting edges
+sh(41088,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41088.100bce000.sh.7APFnQ.index
+sh(41088,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41088,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41088,0x7fff7de2c300) malloc: protecting edges
+tput(41088,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41088.10b509000.tput.YAdKIe.index
+tput(41088,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41088,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41088,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41088.100bce000.sh.7APFnQ.index
+tput(41088,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41088.10b509000.tput.YAdKIe.index
+sh(41093,0x7fff7de2c300) malloc: protecting edges
+sh(41093,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41093.105df2000.sh.nXRQD5.index
+sh(41093,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41093,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41093,0x7fff7de2c300) malloc: protecting edges
+tput(41093,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41093.102f41000.tput.dQB5sl.index
+tput(41093,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41093,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41093,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41093.105df2000.sh.nXRQD5.index
+tput(41093,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41093.102f41000.tput.dQB5sl.index
+sh(41096,0x7fff7de2c300) malloc: protecting edges
+sh(41096,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41096.103b53000.sh.UGl5Ux.index
+sh(41096,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41096,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41096,0x7fff7de2c300) malloc: protecting edges
+tput(41096,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41096.10f616000.tput.aajWqX.index
+tput(41096,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41096,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41096,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41096.103b53000.sh.UGl5Ux.index
+tput(41096,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41096.10f616000.tput.aajWqX.index
+sh(41099,0x7fff7de2c300) malloc: protecting edges
+sh(41099,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41099.109d8e000.sh.wdDZRE.index
+sh(41099,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41099,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41099,0x7fff7de2c300) malloc: protecting edges
+tput(41099,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41099.101d25000.tput.lseyve.index
+tput(41099,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41099,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41099,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41099.109d8e000.sh.wdDZRE.index
+tput(41099,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41099.101d25000.tput.lseyve.index
+sh(41102,0x7fff7de2c300) malloc: protecting edges
+sh(41102,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41102.10329e000.sh.8Qjhwi.index
+sh(41102,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41102,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41102,0x7fff7de2c300) malloc: protecting edges
+tput(41102,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41102.10c658000.tput.LggyAi.index
+tput(41102,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41102,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41102,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41102.10329e000.sh.8Qjhwi.index
+tput(41102,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41102.10c658000.tput.LggyAi.index
+sh(41105,0x7fff7de2c300) malloc: protecting edges
+sh(41105,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41105.100e0a000.sh.FhwPnx.index
+sh(41105,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41105,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41105,0x7fff7de2c300) malloc: protecting edges
+tput(41105,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41105.10ab78000.tput.56vZUf.index
+tput(41105,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41105,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41105,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41105.100e0a000.sh.FhwPnx.index
+tput(41105,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41105.10ab78000.tput.56vZUf.index
+sh(41108,0x7fff7de2c300) malloc: protecting edges
+sh(41108,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41108.10b1a7000.sh.5dWlPX.index
+sh(41108,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41108,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41108,0x7fff7de2c300) malloc: protecting edges
+tput(41108,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41108.10f0b2000.tput.mP0E1V.index
+tput(41108,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41108,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41108,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41108.10b1a7000.sh.5dWlPX.index
+tput(41108,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41108.10f0b2000.tput.mP0E1V.index
+sh(41111,0x7fff7de2c300) malloc: protecting edges
+sh(41111,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41111.102a97000.sh.sOHO7G.index
+sh(41111,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41111,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41111,0x7fff7de2c300) malloc: protecting edges
+tput(41111,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41111.108fc7000.tput.e0s60L.index
+tput(41111,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41111,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41111,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41111.102a97000.sh.sOHO7G.index
+tput(41111,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41111.108fc7000.tput.e0s60L.index
+sh(41130,0x7fff7de2c300) malloc: protecting edges
+sh(41130,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41130.101ecc000.sh.tIcrhT.index
+sh(41130,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+sh(41130,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41130,0x7fff7de2c300) malloc: protecting edges
+tput(41130,0x7fff7de2c300) malloc: stack logs being written into /tmp/stack-logs.41130.10a596000.tput.mUBLir.index
+tput(41130,0x7fff7de2c300) malloc: recording malloc and VM allocation stacks to disk using standard recorder
+tput(41130,0x7fff7de2c300) malloc: enabling scribbling to detect mods to free blocks
+tput(41130,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41130.101ecc000.sh.tIcrhT.index
+tput(41130,0x7fff7de2c300) malloc: stack logs deleted from /tmp/stack-logs.41130.10a596000.tput.mUBLir.index

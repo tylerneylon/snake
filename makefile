@@ -6,4 +6,4 @@ clean:
 	rm engine
 
 engine: engine.c
-	cc $< -o $@ $(flags)
+	cc $< -o $@ $(flags) -g -rdynamic

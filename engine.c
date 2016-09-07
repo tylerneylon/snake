@@ -169,7 +169,12 @@ int main(int argc, char **argv) {
   luaL_dofile(L, "engine_util.lua");
 
   // Load the game file and run the init() function.
-  luaL_dofile(L, game_file);
+  if (luaL_dofile(L, game_file) != LUA_OK) {
+    char msg[1024];
+    snprintf(msg, 1024, "Lua error reported by C API:\n%s\n",
+             lua_tostring(L, -1));
+    done(msg);
+  }
   lua_setglobal(L, "game");
   lua_settop(L, 0);
 

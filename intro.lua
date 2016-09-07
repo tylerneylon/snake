@@ -117,9 +117,13 @@ local function draw_mid_str_till(str, x_max, y_offset, shader)
   local y      = y_mid + y_offset
   dbg_pr('[[6]]')
   set_pos(x_left, y)
+  dbg_pr('[[6.5]]')
   for x = x_left, x_max do
+    dbg_pr('[[6.6]] x = ' .. x .. ' (x_max = ' .. x_max .. ')')
     set_color('f', shader(x, y))
+    dbg_pr('[[6.7]]')
     io.write(str:sub(x - x_left + 1, x - x_left + 1))
+    dbg_pr('[[6.8]]')
   end
   dbg_pr('[[7]]')
   --io.write(str:sub(1, x_max - x_left + 1))
