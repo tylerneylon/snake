@@ -10,9 +10,25 @@ local cached_strs = {}  -- Maps cmd -> str.
 
 local function cached_cmd(cmd)
   if not cached_strs[cmd] then
+    -- XXX
+    io.stderr:write('Starting the call ' .. cmd .. '\n')
+    io.stderr:flush()
     local p = io.popen(cmd)
+    io.stderr:write('{{1}}; p = ' .. tostring(p) .. '\n')
+    io.stderr:flush()
     cached_strs[cmd] = p:read()
+    io.stderr:write('{{2}}\n')
+    io.stderr:flush()
     p:close()
+    io.stderr:write('Finished the call ' .. cmd .. '\n')
+    io.stderr:flush()
+  end
+  -- XXX
+  if not cached_strs[cmd] then
+    os.execute('stty cooked')
+    os.execute('tput reset')
+    print('Error! I ran "' .. cmd .. '" but I got nothing out of it!')
+    os.exit()
   end
   io.write(cached_strs[cmd])
 end

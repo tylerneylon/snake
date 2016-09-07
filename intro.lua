@@ -12,6 +12,12 @@ local intro = {}
 local w, h
 local s = '-----------------------------==============#'
 
+-- XXX
+local function dbg_pr(s)
+  io.stderr:write(s .. '\n')
+  io.stderr:flush()
+end
+
 
 -- Internal functions.
 
@@ -101,22 +107,60 @@ local function intro1()
   end
 end
 
+-- Draw the string s, centered, but omit any suffix with
+-- x coordinates >= x_max.
+local function draw_mid_str_till(str, x_max, y_offset, shader)
+  dbg_pr('[[5]]')
+  str = spaceout(str)
+  local x_left = math.floor((w - #str) / 2)
+  local y_mid  = math.floor(h / 2)
+  local y      = y_mid + y_offset
+  dbg_pr('[[6]]')
+  set_pos(x_left, y)
+  for x = x_left, x_max do
+    set_color('f', shader(x, y))
+    io.write(str:sub(x - x_left + 1, x - x_left + 1))
+  end
+  dbg_pr('[[7]]')
+  --io.write(str:sub(1, x_max - x_left + 1))
+end
+
 
 -- Public functions.
 
 function intro.go()
 
-  local w, h = scrsize()
+  w, h = scrsize()
+
+  local x_right
+  local function shader(x, y)
+    x = x / w
+    y = y / h
+    local z = math.abs(x - y)
+    z = math.min(10 * z, 1)
+    return math.ceil(255 - z * 23)
+  end
 
   -- This is temporary work on a new introduction animation.
   clr()
   local dx  =   3
   local lag = 200  -- Lag of the second streaker.
+  dbg_pr('[[0]]')
   for x_right = 0, w + #s + lag + dx, dx do
+    dbg_pr('[[1]]')
     draw_streak{x_right = x_right,       y_offset = -1, prefix = dx}
     draw_streak{x_right = x_right - lag, y_offset =  1, prefix = dx}
-    sleep(0.001)
+    set_color('f', 254)
+    dbg_pr('[[2]]')
+    draw_mid_str_till('gaarlicbread', x_right - #s,      -1, shader)
+    dbg_pr('[[2.25]]')
+    draw_mid_str_till('presents',     x_right - #s - lag, 1, shader)
+    --sleep(0.001)
+    dbg_pr('[[2.5]]')
+    sleep(0.1)
+    dbg_pr('[[3]]')
   end
+  dbg_pr('[[4]]')
   sleep(1)
 
   set_color('b', 0)

@@ -1,2 +1,4 @@
 engine
 .DS_Store
+tmp
+stderr
