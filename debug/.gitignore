@@ -2,5 +2,6 @@ engine
 .DS_Store
 tmp
 stderr
-malloc_log_file
 out
+*.o
+*.a
