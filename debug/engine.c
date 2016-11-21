@@ -27,6 +27,7 @@
 
 // XXX
 #include <sys/errno.h>
+#include <signal.h>
 
 
 // Internal functions.
@@ -75,6 +76,18 @@ void sleephires(double sec) {
   long n = (long)floor((sec - s) * 1e9);
   struct timespec delay = { .tv_sec = s, .tv_nsec = n };
   nanosleep(&delay, NULL);
+}
+
+// XXX
+void catch_signal(int sig) {
+  char *str;
+  asprintf(&str, "Caught signal %d. Will exit now.\n", sig);
+  errpr(str);
+  errpr("I'll just kinda chill for a while now.\n");
+  while (1) {
+    sleephires(0.2);
+  }
+  exit(1);
 }
 
 void start() {
@@ -211,6 +224,10 @@ int main(int argc, char **argv) {
 
   errpr("B");
   prerrno(NULL);
+
+  // XXX
+  signal(SIGABRT, catch_signal);
+  signal(SIGSEGV, catch_signal);
 
   lua_getglobal(L, "game");
   lua_getfield(L, -1, "init");  // -1 means stack top.
