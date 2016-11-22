@@ -145,6 +145,7 @@ typedef luaL_Stream LStream;
 
 #define isclosed(p)	((p)->closef == NULL)
 
+#define ch() fprintf(stderr, "%s:%d\n", __FUNCTION__, __LINE__); fflush(stderr);
 
 static int io_type (lua_State *L) {
   LStream *p;
@@ -652,6 +653,7 @@ static int io_readline (lua_State *L) {
 
 
 static int g_write (lua_State *L, FILE *f, int arg) {
+  ch();
   int nargs = lua_gettop(L) - arg;
   int status = 1;
   for (; nargs--; arg++) {
@@ -665,7 +667,10 @@ static int g_write (lua_State *L, FILE *f, int arg) {
     else {
       size_t l;
       const char *s = luaL_checklstring(L, arg, &l);
+      errno = 0;
+      fprintf(stderr, "set errno to 0\n"); fflush(stderr);
       status = status && (fwrite(s, sizeof(char), l, f) == l);
+      fprintf(stderr, "errno = %d\n", errno); fflush(stderr);
     }
   }
   if (status) return 1;  /* file handle already on stack top */
@@ -674,11 +679,13 @@ static int g_write (lua_State *L, FILE *f, int arg) {
 
 
 static int io_write (lua_State *L) {
+  ch();
   return g_write(L, getiofile(L, IO_OUTPUT), 1);
 }
 
 
 static int f_write (lua_State *L) {
+  ch();
   FILE *f = tofile(L);
   lua_pushvalue(L, 1);  /* push file at the stack top (to be returned) */
   return g_write(L, f, 2);

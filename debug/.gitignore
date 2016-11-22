@@ -5,3 +5,5 @@ stderr
 out
 *.o
 *.a
+lua
+luac
