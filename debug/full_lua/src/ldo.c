@@ -34,6 +34,10 @@
 #include "lzio.h"
 
 
+// XXX
+#include <stdio.h>
+
+
 
 #define errorstatus(s)	((s) > LUA_YIELD)
 
@@ -78,6 +82,17 @@
 
 #endif							/* } */
 
+
+// XXX
+/*
+static void errpr(const char *s) {
+  fprintf(stderr, "%s\n", s);
+  fflush(stderr);
+}
+*/
+
+// XXX
+#define ch() fprintf(stderr, "%s:%d\n", __FUNCTION__, __LINE__); fflush(stderr);
 
 
 /* chain list of long jump buffers */
@@ -502,9 +517,13 @@ void luaD_call (lua_State *L, StkId func, int nResults) {
 ** Similar to 'luaD_call', but does not allow yields during the call
 */
 void luaD_callnoyield (lua_State *L, StkId func, int nResults) {
+  ch();
   L->nny++;
+  ch();
   luaD_call(L, func, nResults);
+  ch();
   L->nny--;
+  ch();
 }
 
 

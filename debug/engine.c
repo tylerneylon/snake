@@ -26,6 +26,7 @@
 #include "lualib.h"
 
 // XXX
+#include <execinfo.h>
 #include <sys/errno.h>
 #include <signal.h>
 
@@ -83,6 +84,12 @@ void catch_signal(int sig) {
   char *str;
   asprintf(&str, "Caught signal %d. Will exit now.\n", sig);
   errpr(str);
+
+  void *array[1024];
+  size_t size = backtrace(array, 1024);
+  backtrace_symbols_fd(array, size, STDERR_FILENO);
+  fflush(stderr);
+
   errpr("I'll just kinda chill for a while now.\n");
   while (1) {
     sleephires(0.2);
