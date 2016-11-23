@@ -22,6 +22,8 @@
 #include "lauxlib.h"
 #include "lualib.h"
 
+// XXX
+#include <unistd.h>
 
 
 
@@ -655,9 +657,12 @@ static int io_readline (lua_State *L) {
 static int g_write (lua_State *L, FILE *f, int arg) {
   ch();
   int nargs = lua_gettop(L) - arg;
+  ch();
   int status = 1;
+  ch();
   for (; nargs--; arg++) {
     if (lua_type(L, arg) == LUA_TNUMBER) {
+      ch();
       /* optimization: could be done exactly as for strings */
       int len = lua_isinteger(L, arg)
                 ? fprintf(f, LUA_INTEGER_FMT, lua_tointeger(L, arg))
@@ -666,15 +671,36 @@ static int g_write (lua_State *L, FILE *f, int arg) {
     }
     else {
       size_t l;
+      ch();
       const char *s = luaL_checklstring(L, arg, &l);
       errno = 0;
       fprintf(stderr, "set errno to 0\n"); fflush(stderr);
+      fprintf(stderr, "s=%p, l=%zd, f=%p, stdout=%p\n",
+              s, l, f, stdout);
+      fflush(stderr);
+      fprintf(stderr, "First char has byte value 0x%02X.\n", s[0]);
+      fflush(stderr);
+      fprintf(stderr, "Full sequence is:\n");
+      fflush(stderr);
+      int limit = l;
+      if (l > 20) l = 20;
+      for (int i = 0; i < limit; ++i) {
+        fprintf(stderr, "0x%02X ", s[i]);
+      }
+      fprintf(stderr, "\n");
+      fflush(stderr);
       status = status && (fwrite(s, sizeof(char), l, f) == l);
       fprintf(stderr, "errno = %d\n", errno); fflush(stderr);
     }
   }
-  if (status) return 1;  /* file handle already on stack top */
-  else return luaL_fileresult(L, status, NULL);
+  ch();
+  if (status) {
+    ch();
+    return 1;  /* file handle already on stack top */
+  } else {
+    ch();
+    return luaL_fileresult(L, status, NULL);
+  }
 }
 
 

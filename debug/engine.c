@@ -80,7 +80,7 @@ void sleephires(double sec) {
 }
 
 // XXX
-void catch_signal(int sig) {
+void old_catch_signal(int sig) {
   char *str;
   asprintf(&str, "Caught signal %d. Will exit now.\n", sig);
   errpr(str);
@@ -94,6 +94,47 @@ void catch_signal(int sig) {
   while (1) {
     sleephires(0.2);
   }
+  exit(1);
+}
+
+// XXX
+void catch_signal(int sig) {
+
+  sleephires(0.6);
+
+  // Print stuff to stdout.
+
+  fflush(stdout);
+  
+  system("tput reset");
+  system("stty sane");
+
+  fsync(STDOUT_FILENO);
+
+  printf("Caught signal %d. Will exit now.\n", sig);
+  fflush(stdout);
+
+  void *array[1024];
+  size_t size = backtrace(array, 1024);
+  backtrace_symbols_fd(array, size, STDOUT_FILENO);
+  fflush(stdout);
+
+  char *str;
+  asprintf(&str, "Caught signal %d. Will exit now.\n", sig);
+  puts(str);
+  fflush(stdout);
+
+  // Print stuff to stderr.
+
+  asprintf(&str, "Caught signal %d. Will exit now.\n", sig);
+  errpr(str);
+
+  size = backtrace(array, 1024);
+  backtrace_symbols_fd(array, size, STDERR_FILENO);
+  fflush(stderr);
+
+  // Exit.
+
   exit(1);
 }
 

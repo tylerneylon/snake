@@ -2,6 +2,7 @@ engine
 .DS_Store
 tmp
 stderr
+stdout
 out
 *.o
 *.a
