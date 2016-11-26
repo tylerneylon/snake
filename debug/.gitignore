@@ -9,3 +9,5 @@ out
 lua
 luac
 *.dSYM
+wont_crash
+does_crash
